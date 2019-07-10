@@ -9,5 +9,5 @@ services:
     ports:
       - 3000:3000
       - 9229:9229
-    ## set your startup file here
+    ## set your startup file here2
     command: node --inspect index.js
