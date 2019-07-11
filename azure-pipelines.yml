@@ -42,6 +42,6 @@ stages:
         ConnectionType: 'AzureRM'
         azureSubscription: 'Microsoft Federal Hackathon 22222'
         appType: 'webAppContainer'
-        WebAppName: 'best-for-you-app-111'
+        WebAppName: 'best-for-you-app-1'
         DockerNamespace: 'bestforyouregistry1.azurecr.io'
         DockerRepository: 'ktmdmcwosspaasanddevops'
