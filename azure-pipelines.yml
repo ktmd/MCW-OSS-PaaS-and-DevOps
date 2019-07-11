@@ -1,4 +1,12 @@
 # Docker
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Microsoft Federal Hackathon 22222'
+    appType: 'webAppContainer'
+    WebAppName: 'best-for-you-app-1'
+    DockerNamespace: 'bestforyouregistry1.azurecr.io'
+    DockerRepository: 'ktmdmcwosspaasanddevops'
 # Build and push an image to Azure Container Registry
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
